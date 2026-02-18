@@ -9,6 +9,14 @@ int main()
 
     for (int character_index = 0; input_sentence[character_index] != '\0'; character_index++)
     {
-       if
+       if (input_sentence[character_index] == ' ')
+       {
+           input_sentence[character_index] = '-';
+       }
     }
+
+    cout << input_sentence << endl;
+
+     return 0;
 }
+
